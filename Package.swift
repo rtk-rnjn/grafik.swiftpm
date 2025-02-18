@@ -17,6 +17,7 @@ let package = Package(
             name: "Grafik",
             targets: ["AppModule"],
             bundleIdentifier: "in.galgotias.Grafik",
+            teamIdentifier: "5F5GUA92X8",
             displayVersion: "1.0",
             bundleVersion: "1",
             appIcon: .placeholder(icon: .sun),
@@ -30,7 +31,8 @@ let package = Package(
                 .landscapeRight,
                 .landscapeLeft,
                 .portraitUpsideDown(.when(deviceFamilies: [.pad]))
-            ]
+            ],
+            appCategory: .education
         )
     ],
     targets: [
